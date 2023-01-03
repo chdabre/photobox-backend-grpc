@@ -203,6 +203,6 @@ poetry.toml
 
 # End of https://www.toptal.com/developers/gitignore/api/python,macos
 
-photobox_backend_grpc/photobox_service_pb2_grpc.py
-photobox_backend_grpc/photobox_service_pb2.py
-photobox_backend_grpc/photobox_service_pb2.pyi
+photobox_service_pb2_grpc.py
+photobox_service_pb2.py
+photobox_service_pb2.pyi
