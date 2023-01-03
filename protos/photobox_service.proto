@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+service PhotoboxControl {
+  rpc Capture(CaptureRequest) returns (CaptureResponse) {}
+}
+
+message CaptureRequest {
+}
+
+message CaptureResponse {
+  bool success = 1;
+}
